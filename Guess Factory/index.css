@@ -1,0 +1,17 @@
+html {
+    font-family: "Times New Roman", Times, serif;
+    
+}
+body {
+    width: 50%;
+    max-width: 600px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-image: url("images/guess.jpg")
+    background-repeat: repeat-y;
+    
+}
+#feedback {
+    color: white;
+    padding: 3px;
+}

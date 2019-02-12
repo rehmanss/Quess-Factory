@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Guess Factory</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js"></script>            
+    </head>
+<body>
+        <h1 class="serif">Guess Factory Game!</h1>
+        
+        <p class="serif">A random number has been selected from 1 and 100. You can guess up to 10 times, failed to answer and the game will be ended. Feedback is provided, to tell you if your guessed number was too high or too low.</p>
+        
+        <div id="frmGuess">
+            <label for="txtGuess">Enter a Number: </label>
+            <input id="txtGuess" type="text">
+            <input id="btnGuess" type="submit" value="Submit Number">
+        </div>
+
+        <div id="result">
+            <p id="guesses"></p>
+            <p id="feedback"></p>
+        </div>
+    
+    <style>
+        body  {
+    background-image: url("images/guess.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: ghostwhite;
+}
+        .serif {
+       font-family: "Courier New", Courier, monospace
+        
+}
+        #frmGuess {
+            font-family: "Courier New", Courier, monospace
+ }
+        
+</style>
+          
+</body>
+</html>
